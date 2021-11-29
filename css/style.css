@@ -1,0 +1,178 @@
+/* Common css starts */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.tryfree {
+    display: inline-block;
+    background: #fcae61;
+    border-radius: 40px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-weight: 500;
+    border: 1px solid;
+}
+
+.tryfree:hover,
+.b-content .tryfree:hover {
+    background: transparent;
+    border: 1px solid;
+    color: #fcae61 !important;
+
+}
+
+.p-text {
+    color: #616368;
+}
+
+/* Common css ends */
+
+/* header starts */
+header {
+    padding: 40px 0 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-fluid span {
+    color: #fcae61;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.nav-item .nav-link {
+    color: #242f51 !important;
+    margin: 0 6px;
+
+}
+
+.nav-item .tryfree,
+.b-content .tryfree {
+    color: white !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #fcae61 !important;
+}
+
+
+
+
+
+/* header ends */
+
+/* banner starts */
+
+.banner {
+    background-image: url(../images/bannerbg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.banner-inner {}
+
+.b-content {
+    margin-top: 175px;
+    padding-right: 52px;
+}
+
+.b-content h1 {
+    font-size: 60px;
+    /* font-weight: 600; */
+}
+
+.b-content .p-text {
+    font-size: 18px;
+    color: #616368;
+    margin: 35px 0;
+}
+
+.b-content small {
+    margin-left: 20px;
+    color: #fcae61;
+}
+
+.b-content .tryfree {}
+
+.b-img {
+    text-align: end;
+}
+
+.b-img img {}
+
+/* baner-ends */
+
+/* trusted by starts */
+.trustedby {
+    padding: 65px 0 40px;
+}
+
+.trustedby-h6 {
+    margin-bottom: 25px;
+}
+
+.companies img {}
+
+/* trusted by ends */
+
+
+
+/* appfeature starts */
+.appfeature {
+    padding: 40px 0px;
+}
+
+.appf-img {}
+
+.appf-img img {}
+
+.appfeature-contents {}
+
+.top-content {}
+
+.h2-text {}
+
+.top-content .h2-text {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.appfC-img-content {
+    margin-top: 60px;
+    /* margin-bottom: 0; */
+}
+
+.appfC-img {
+    text-align: center;
+}
+
+.appfC-img img {}
+
+.h3-text {}
+
+.appfc-content .h3-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.red {
+    color: #f55767;
+}
+
+.blue {
+    color: #2563ff;
+}
+
+.green {
+    color: #40975f;
+}
+
+/* appfeature ends */
